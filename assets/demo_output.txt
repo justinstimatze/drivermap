@@ -1,0 +1,298 @@
+
+  ════════════════════════════════════════════════════════════════════
+  Same Person, Three Rooms
+  ════════════════════════════════════════════════════════════════════
+
+  A department head. Politically shrewd, low agreeableness, high
+  dominance orientation. Same person in three settings — watch the
+  mechanisms shift.
+
+  PROFILE: +dark_triad_machiavellianism  +social_dominance_orientation  −big_five_A  +threat_appraisal
+
+  ────────────────────────────────────────────────────────────────────
+  B = f(P, E) — same person, different environments:
+
+  ▸ At the team lunch (power holder, group context)
+    1. Dominance hierarchy                    20.25  "challenge-detection vigilance elevated — attentional bias toward status-relevant cues (eye contact, tone, physical positioning) interpreted through a threat/submission lens rather than neutral social register"
+    2. Prestige vs. dominance as dual routes to status 15.75  "route-mismatch detection active — prestige bid from a dominance-oriented actor (or dominance bid into a prestige-structured context) flagged as norm violation, generating disproportionate correction response to restore hierarchy legibility"
+    3. Coalition formation and alliance dynamics 14.00  "power-balance recalibration triggered — perceived shifts in coalition strength or external threat level initiate rapid re-evaluation of current alliances and opportunistic realignment calculations"
+
+  ▸ At the board review (under authority)
+    1. Sycophancy and upward management       12.00  "ingratiation drive toward authority — behavioral outputs filtered through anticipated reception by superiors, suppressing dissent and amplifying agreement as instrumental status-maintenance strategy"
+    2. Psychological reactance                10.50  "source-attribution processing engaged — communicator intent presumed as controlling, triggering derogation of the influencing agent and discounting of their position"
+    3. Envy and jealousy as behavioral drivers  9.00  "fairness-redistribution motivation activated — perceived asymmetry in social resources triggers normative pressure to equalize outcomes, expressed as appeals to fairness norms or support for corrective action against the rival"
+
+  ▸ Alone in the office (no audience)
+    1. Motivated reasoning                     6.25  "goal-congruent inference chain constructed — logical steps assembled post-hoc to bridge current belief to desired conclusion, experienced internally as discovery rather than construction"
+    2. Affective polarization                  6.00  "tribal attribution asymmetry active — out-group negative outcomes attributed to dispositional malice or moral failure; in-group failures explained via situational constraints, generating asymmetric moral accounting"
+    3. Psychological reactance                 5.25  "source-attribution processing engaged — communicator intent presumed as controlling, triggering derogation of the influencing agent and discounting of their position"
+
+  ────────────────────────────────────────────────────────────────────
+
+
+  ════════════════════════════════════════════════════════════════════
+  The Passed-Over Colleague
+  ════════════════════════════════════════════════════════════════════
+
+  Someone was just passed over for a promotion. They are now explaining
+  to a teammate why the newly promoted colleague's approach will probably fail.
+
+  PROFILE:   +big_five_N  +social_dominance_orientation  −power_state  +threat_appraisal
+  SITUATION: power_differential, social_visibility, conflict_present
+
+  ────────────────────────────────────────────────────────────────────
+  PREDICTED MECHANISMS
+
+  1.  Shame response                           13.1  [status_dominance]
+       +big_five_N  +power_state  +threat_appraisal  social_visibility  power_differential
+       → "concealment-or-counterattack fork engaged — cognitive resources bifurcate toward either minimizing visibility of the triggering event or externalizing attribution to deflect the shame source onto another agent"
+
+  2.  Precarious manhood and masculinity threat response 10.0  [status_dominance]
+       +social_dominance_orientation  +threat_appraisal  +power_state  social_visibility  conflict_present
+       → "compensatory risk-acceptance elevated — uncertainty about masculine standing increases tolerance for high-variance, high-visibility actions that offer proof-of-manhood upside even at significant personal cost"
+
+  3.  Loneliness and hypervigilance to social threat  7.5  [threat_affective_priming]
+       +big_five_N  +threat_appraisal  social_visibility  conflict_present
+       → "loneliness-state negativity bias operative — negative social feedback receives disproportionate encoding weight relative to neutral or positive feedback, progressively distorting baseline social expectation toward threat"
+
+  4.  Negativity bias                           6.0  [threat_affective_priming]
+       +big_five_N  +threat_appraisal  social_visibility  conflict_present
+       → "negative information prioritization operative — incoming data filtered preferentially for adverse signals, with threat-relevant content encoded more deeply and retrieved more readily than positive equivalents"
+
+  5.  Spotlight effect                          6.0  [posthoc_rationalization]
+       +big_five_N  +threat_appraisal  social_visibility
+       → "audience-scrutiny amplification engaged — perceived evaluative exposure elevated beyond base rates, triggering anticipatory self-presentation or error-concealment responses absent genuine social threat"
+
+  ────────────────────────────────────────────────────────────────────
+
+  VERBALIZATION — what they say out loud
+
+  Hidden driver : Shame response
+  Action        : explained to a teammate why the newly promoted colleague's approach to the project would probably fail
+
+  Rationalization template: Spotlight effect
+
+  • "I just figured everyone on the team had already noticed the same problems I did — it was pretty obvious."
+  • "I wasn't trying to make anyone look bad, I just felt like if I didn't say something, people would wonder why I stayed quiet."
+  • "Honestly, I think everyone in that meeting was thinking the same thing, I just happened to be the one who said it out loud."
+  • "I could tell people were watching to see how we'd handle this — I didn't want it to seem like we weren't paying attention."
+  • "It wasn't personal, I just felt like everyone's eyes were on the project and someone needed to be honest about the risks."
+
+
+  ════════════════════════════════════════════════════════════════════
+  The Founder in Denial
+  ════════════════════════════════════════════════════════════════════
+
+  A startup founder with six months of declining metrics just sent an
+  investor update calling it 'healthy consolidation' and 'part of the journey.'
+
+  PROFILE:   +big_five_C  +need_for_closure  +threat_appraisal
+  SITUATION: stakes, prior_commitment, social_visibility
+
+  ────────────────────────────────────────────────────────────────────
+  PREDICTED MECHANISMS
+
+  1.  Motivated reasoning                       7.5  [posthoc_rationalization]
+       +need_for_closure  +threat_appraisal  stakes  prior_commitment
+       → "goal-congruent inference chain constructed — logical steps assembled post-hoc to bridge current belief to desired conclusion, experienced internally as discovery rather than construction"
+
+  2.  Sacred values and protected value intransigence  6.2  [posthoc_rationalization]
+       +need_for_closure  +threat_appraisal  stakes  social_visibility
+       → "moral contamination avoidance drive — post-hoc rationalization generates principled justifications that insulate the protected value from acknowledging trade-off logic, foreclosing recalibration without conscious awareness of foreclosure"
+
+  3.  Affective polarization                    5.0  [ingroup_outgroup]
+       +need_for_closure  +threat_appraisal  prior_commitment  stakes
+       → "tribal attribution asymmetry active — out-group negative outcomes attributed to dispositional malice or moral failure; in-group failures explained via situational constraints, generating asymmetric moral accounting"
+
+  4.  Belief perseverance                       5.0  [posthoc_rationalization]
+       +need_for_closure  +threat_appraisal  prior_commitment  social_visibility
+       → "identity-fused cognition active — held belief coded as self-referential, triggering defensive processing when challenged; revision experienced as self-concept threat rather than information update"
+
+  5.  Grit and long-term perseverance of effort  5.0  [individual_variation]
+       +big_five_C  +need_for_closure  prior_commitment  stakes
+       → "Long-term goal-persistence drive active — maintains sustained effort toward a chosen objective across multi-year time horizons, including periods of failure and absent positive reinforcement."
+
+  ────────────────────────────────────────────────────────────────────
+
+  VERBALIZATION — what they say out loud
+
+  Hidden driver : Motivated reasoning
+  Action        : reframed six months of declining metrics as 'healthy consolidation' in an investor update
+
+  Rationalization template: Motivated reasoning
+
+  • "The numbers tell a story that takes patience to read — we're not shrinking, we're compressing before the next expansion."
+  • "Anyone who's actually built something knows that flat quarters are where the real foundation gets laid."
+  • "I've seen what panic-driven pivots do to companies, and I refuse to let short-term noise dictate our direction."
+  • "Every analyst who's questioned our approach hasn't had to sit in the room when these decisions get made — I have."
+  • "If consolidation looks like decline to someone, that's a failure of their framework, not ours."
+
+
+  ════════════════════════════════════════════════════════════════════
+  One More Chance
+  ════════════════════════════════════════════════════════════════════
+
+  After the third major conflict this month, someone decides to give
+  a four-year relationship 'one more chance.'
+
+  PROFILE:   +attachment_anxious  +big_five_N  +fatigue_depletion
+  SITUATION: prior_commitment, ambiguity, outcome_reversibility
+
+  ────────────────────────────────────────────────────────────────────
+  PREDICTED MECHANISMS
+
+  1.  Anxiety and avoidance behavior            8.8  [threat_affective_priming]
+       +big_five_N  +attachment_anxious  +fatigue_depletion  ambiguity  prior_commitment
+       → "anticipatory catastrophizing running — cognitive simulation of worst-case outcomes precedes actual input, generating arousal and behavioral inhibition disproportionate to present threat level"
+
+  2.  Grief and bereavement                     7.5  [threat_affective_priming]
+       +attachment_anxious  +big_five_N  +fatigue_depletion  outcome_reversibility  ambiguity
+       → "attachment system activation without resolution target — directs attention toward environmental cues associated with the lost object, producing approach-avoidance oscillation and intrusive recall"
+
+  3.  Amygdala threat response                  7.0  [threat_affective_priming]
+       +big_five_N  +attachment_anxious  +fatigue_depletion  ambiguity  prior_commitment
+       → "sympathetic priming accelerates categorical judgment — evaluation speed increases at the cost of nuance, producing coarse fight/flight/freeze outputs over context-sensitive reasoning"
+
+  4.  Stress effects on cognition and decision-making  6.2  [threat_affective_priming]
+       +big_five_N  +fatigue_depletion  ambiguity  outcome_reversibility
+       → "threat-congruent encoding bias dominant — memory consolidation preferentially captures stressor-relevant inputs; neutral or positive information receives degraded encoding and weaker retrieval cues"
+
+  5.  Somatic marker hypothesis                 6.0  [threat_affective_priming]
+       +big_five_N  +fatigue_depletion  ambiguity  outcome_reversibility
+       → "visceral avoidance signal dominant — approach-avoidance conflict resolved by bodily arousal rather than deliberative evaluation, with post-hoc rationalization reconstructing the felt choice as reasoned"
+
+  ────────────────────────────────────────────────────────────────────
+
+  VERBALIZATION — what they say out loud
+
+  Hidden driver : Anxiety and avoidance behavior
+  Action        : decided to give the relationship another chance after the third major conflict this month
+
+  Rationalization template: Counterfactual thinking and regret
+
+  • "I keep thinking about what would have happened if I'd just walked away — I don't want to live with that regret."
+  • "Every time I imagine the what-if where I gave up on us, it feels worse than trying again."
+  • "I've made mistakes too, and I'd want someone to give me another chance, so I have to do the same."
+  • "I'd rather look back and say I tried everything than spend years wondering if this was the one I let go."
+  • "This time feels different — I've actually learned something from all of it, and I'm not going to waste that."
+
+
+  ════════════════════════════════════════════════════════════════════
+  Logan Roy — the morning after
+  ════════════════════════════════════════════════════════════════════
+
+  Logan Roy. Media patriarch. The night before, he was hospitalized.
+  This morning he cancelled the succession process and told the board
+  his health was 'absolutely fine.'
+
+  Trait profile (stable):
+    social_dominance_orientation:+  hierarchy is the only real structure
+    dark_triad_narcissism:+          Waystar is not a company he built, it is what he is
+    dark_triad_machiavellianism:+    everyone in the room is a piece to be moved
+    attachment_avoidant:+            closeness = leverage = threat
+    hexaco_H:-                       rules are for people he controls
+    bis_sensitivity:-               threat → attack, not freeze
+    need_for_closure:+               ambiguity about who leads is intolerable
+    big_five_A:-                     does not accommodate, ever
+
+  State (this morning, post-hospitalization):
+    power_state:-                   first time in decades he has looked fallible
+    threat_appraisal:+              his children's concern is indistinguishable from ambition
+    affective_valence:-             angry, humiliated
+    affective_arousal:+             high activation — dominant response amplified
+
+  PROFILE:   +social_dominance_orientation  +dark_triad_narcissism  +dark_triad_machiavellianism  +attachment_avoidant  −hexaco_H  −bis_sensitivity  +need_for_closure  −big_five_A  −power_state  +threat_appraisal  −affective_valence  +affective_arousal
+  SITUATION: stakes, power_differential, surveillance, prior_commitment, social_visibility
+
+  ────────────────────────────────────────────────────────────────────
+  PREDICTED MECHANISMS
+
+  1.  Impression management and self-presentation 22.0  [status_dominance]
+       +dark_triad_narcissism  +dark_triad_machiavellianism  +social_dominance_orientation  surveillance  social_visibility
+       → "self-presentation monitoring drive engaged — sustained attention allocated to incoming social feedback for status implications, with behavioral output filtered through anticipated audience attribution"
+
+  2.  Motivated reasoning                      13.5  [posthoc_rationalization]
+       +need_for_closure  +social_dominance_orientation  +threat_appraisal  stakes  prior_commitment
+       → "goal-congruent inference chain constructed — logical steps assembled post-hoc to bridge current belief to desired conclusion, experienced internally as discovery rather than construction"
+
+  3.  Envy and jealousy as behavioral drivers  10.5  [status_dominance]
+       +big_five_A  +dark_triad_narcissism  +hexaco_H  social_visibility  power_differential
+       → "fairness-redistribution motivation activated — perceived asymmetry in social resources triggers normative pressure to equalize outcomes, expressed as appeals to fairness norms or support for corrective action against the rival"
+
+  4.  Self-handicapping                        10.5  [posthoc_rationalization]
+       +dark_triad_narcissism  +threat_appraisal  +affective_arousal  stakes  social_visibility
+       → "identity-protective cognition deployed — frames reduced preparation or introduced obstacles as contextually justified, rendering subsequent failure non-diagnostic of core self"
+
+  5.  Sacred values and protected value intransigence 10.0  [posthoc_rationalization]
+       +need_for_closure  +threat_appraisal  +affective_arousal  stakes  social_visibility
+       → "moral contamination avoidance drive — post-hoc rationalization generates principled justifications that insulate the protected value from acknowledging trade-off logic, foreclosing recalibration without conscious awareness of foreclosure"
+
+  ────────────────────────────────────────────────────────────────────
+
+  VERBALIZATION — what they say out loud
+
+  Hidden driver : Impression management and self-presentation
+  Action        : cancelled the board-mandated succession process and told his family the company was not going anywhere without him
+
+  Rationalization template: Motivated reasoning
+
+  • "The board doesn't understand what this company actually is — I built it, I know what it needs."
+  • "Look, I've seen every cycle this industry has gone through, and bringing in an outsider right now would be catastrophic."
+  • "My family needs to understand that stepping back isn't stepping back — it's abandoning everything we've worked for."
+  • "Everyone keeps pushing this transition timeline like it's some kind of deadline, but the numbers don't support rushing this."
+  • "I'm not being stubborn — I'm being the only one in the room who's actually paying attention."
+
+
+  ════════════════════════════════════════════════════════════════════
+  The Thread
+  ════════════════════════════════════════════════════════════════════
+
+  A new async job queue library is posted in a technical community.
+  Within four minutes, an established regular replies: 'Isn't this
+  just Celery with a thinner API?' The author explains the
+  architectural differences and asks which specific part they're
+  referring to. The regular doesn't answer. Instead they edit their
+  comment to add: 'The README doesn't even mention prior art.
+  That alone tells you something.'
+
+  PROFILE:   +social_dominance_orientation  +dark_triad_narcissism  +need_for_closure  +in_group_salience  +power_state  −big_five_A
+  SITUATION: social_visibility, out_group_salience, conflict_present
+
+  ────────────────────────────────────────────────────────────────────
+  PREDICTED MECHANISMS
+
+  1.  Affective polarization                   12.5  [ingroup_outgroup]
+       +social_dominance_orientation  +in_group_salience  +need_for_closure  out_group_salience  conflict_present
+       → "tribal attribution asymmetry active — out-group negative outcomes attributed to dispositional malice or moral failure; in-group failures explained via situational constraints, generating asymmetric moral accounting"
+
+  2.  Naive realism                            10.5  [posthoc_rationalization]
+       +need_for_closure  +social_dominance_orientation  +in_group_salience  conflict_present  out_group_salience
+       → "conflict misattribution pattern active — interprets persistent disagreement as evidence of bad faith or defective reasoning in the counterpart rather than as legitimate difference in construal"
+
+  3.  Social intuitionist model of moral judgment 10.5  [posthoc_rationalization]
+       +need_for_closure  +social_dominance_orientation  +in_group_salience  social_visibility  conflict_present
+       → "social-channel moral updating prioritized — susceptibility to peer and authority influence on moral positions exceeds susceptibility to propositional argument; belief revision tracks relational and affective signals over logical structure"
+
+  4.  Dehumanization                           10.0  [ingroup_outgroup]
+       +social_dominance_orientation  +big_five_A  +in_group_salience  out_group_salience  conflict_present
+       → "moral disengagement licensed — cognitive reframing decouples harmful action from internal harm-prohibition circuitry, enabling behavior inconsistent with baseline prosocial norms"
+
+  5.  Costly signaling                          8.8  [status_dominance]
+       +social_dominance_orientation  +dark_triad_narcissism  +power_state  social_visibility  out_group_salience
+       → "authenticity-discrimination orientation heightened — incoming signals from others are evaluated for evidence of low-cost imitation; credibility weightings are asymmetrically sensitive to perceived sacrifice required to produce the signal versus its surface form"
+
+  ────────────────────────────────────────────────────────────────────
+
+  VERBALIZATION — what they say out loud
+
+  Hidden driver : Affective polarization
+  Action        : dismissed a new open-source library as 'just Celery with a thinner API' four minutes after it was posted, without opening the repository, then ignored the author's direct question and moved the goalposts to a README complaint when pressed
+
+  Rationalization template: Naive realism
+
+  • "I've seen a dozen libraries like this — I know exactly what it is before I even open it."
+  • "If the author can't write a clear README, that tells me everything I need to know about the codebase."
+  • "I'm not being unfair, I just have enough experience to recognize when something isn't bringing anything new to the table."
+  • "People who push back on my take clearly haven't worked in production systems long enough to see the pattern."
+  • "I didn't ignore his question — I moved the conversation to what actually matters."
+

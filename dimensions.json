@@ -1,0 +1,70 @@
+{
+  "_description": "Controlled vocabulary for person-level and situation-level dimensions used to parameterize mechanism activation without encoding demographic stereotypes. Person dimensions reference validated psychological constructs; situation dimensions reference features of the environment.",
+
+  "person_trait_dimensions": {
+    "_note": "Stable individual-level constructs. Reference these in person_moderators.",
+    "big_five_O": "Openness to experience (Big Five) — curiosity, creativity, cognitive flexibility",
+    "big_five_C": "Conscientiousness (Big Five) — self-control, planning, goal persistence",
+    "big_five_E": "Extraversion (Big Five) — sociability, positive affect, dominance",
+    "big_five_A": "Agreeableness (Big Five) — cooperation, trust, empathy orientation",
+    "big_five_N": "Neuroticism (Big Five) — emotional instability, threat sensitivity",
+    "dark_triad_narcissism": "Subclinical narcissism — entitlement, grandiosity, attention-seeking",
+    "dark_triad_machiavellianism": "Machiavellianism — strategic manipulation, low affective empathy",
+    "dark_triad_psychopathy": "Subclinical psychopathy — callousness, impulsivity, fearlessness",
+    "attachment_anxious": "Anxious attachment — fear of abandonment, hyperactivation of attachment system",
+    "attachment_avoidant": "Avoidant attachment — deactivation of attachment, discomfort with intimacy",
+    "bis_sensitivity": "Behavioral Inhibition System sensitivity — threat/punishment sensitivity, behavioral suppression",
+    "bas_sensitivity": "Behavioral Activation System sensitivity — reward sensitivity, approach motivation",
+    "need_for_cognition": "Intrinsic motivation to engage in effortful thinking",
+    "need_for_closure": "Desire for definite answers, intolerance of ambiguity",
+    "disgust_sensitivity": "Sensitivity to contamination and violations of purity norms",
+    "sensory_processing_sensitivity": "Depth of processing, emotional reactivity, environmental sensitivity (HSP)",
+    "alexithymia": "Difficulty identifying and describing emotions — low emotional granularity",
+    "social_dominance_orientation": "Preference for group-based hierarchy and inequality",
+    "hexaco_H": "Honesty-Humility (HEXACO sixth factor) — sincerity, fairness, greed-avoidance, modesty; predicts dark triad behaviors and moral licensing where Big Five falls short"
+  },
+
+  "person_state_dimensions": {
+    "_note": "Transient within-person states. Reference these in person_moderators for state-dependent activation.",
+    "cognitive_load": "Current mental load — high load degrades deliberate reasoning, amplifies System 1",
+    "affective_valence": "Current emotional tone — positive or negative affect baseline",
+    "affective_arousal": "Current physiological arousal level — amplifies dominant response tendencies",
+    "resource_scarcity_state": "Perceived scarcity of resources (money, time, social support) — tunnels cognition",
+    "power_state": "Perceived current power level — affects perspective-taking, approach/inhibition balance",
+    "threat_appraisal": "Degree to which current environment is appraised as threatening",
+    "in_group_salience": "How activated is social identity / group membership in this context",
+    "relationship_history": "Quality and valence of prior interactions with the other party",
+    "fatigue_depletion": "Current self-regulatory resource depletion — increases impulsive responding"
+  },
+
+  "situation_dimensions": {
+    "_note": "Features of the environment/context. Reference these in situation_activators.",
+    "stakes": "Magnitude of potential outcomes — low/medium/high",
+    "social_visibility": "Whether behavior is observable by others — private/semi-public/public",
+    "time_pressure": "Urgency of response required — low/medium/high",
+    "ambiguity": "Degree of uncertainty about situation, others' intentions, or correct response",
+    "out_group_salience": "Whether out-group members are present or psychologically salient",
+    "power_differential": "Whether a clear power asymmetry exists between parties",
+    "power_holder": "The profiled person holds the power position in an asymmetric relationship",
+    "power_low": "The profiled person is in the lower-power position in an asymmetric relationship",
+    "resource_availability": "Whether resources (money, status, goods, support) are abundant or scarce",
+    "novelty": "Whether the situation is familiar or novel/unprecedented",
+    "relationship_type": "Nature of relationship: stranger / acquaintance / close / authority / rival",
+    "conflict_present": "Whether explicit conflict, competition, or zero-sum framing is active",
+    "anonymity": "Degree to which individual identity is obscured",
+    "social_norms_clarity": "How clear and enforced the relevant social norms are",
+    "physical_threat": "Whether physical danger is present or implied",
+    "group_context": "Whether the person is acting individually or as part of a group",
+    "outcome_reversibility": "Whether the decision or outcome can be undone",
+    "prior_commitment": "Whether the person has made prior public or private commitments relevant to this situation",
+    "surveillance": "Whether the person believes they are being observed or evaluated"
+  },
+
+  "cultural_dimensions": {
+    "_note": "Documented cross-cultural moderators with empirical backing. Use only when research specifically identifies cultural moderation. These are population-level tendencies, not individual-level predictors.",
+    "individualism_collectivism": "Hofstede dimension — extent to which group vs. individual interest is prioritized",
+    "power_distance": "Acceptance of hierarchical power inequality",
+    "uncertainty_avoidance": "Tolerance for ambiguity and unstructured situations",
+    "tightness_looseness": "Strength of social norms and tolerance for deviance (Gelfand)"
+  }
+}

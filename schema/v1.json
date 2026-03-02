@@ -1,0 +1,3499 @@
+{
+  "_meta": {
+    "records_analyzed": 20,
+    "total_fields_seen": 598,
+    "thresholds": {
+      "required": ">= 80%",
+      "optional": "30-80%",
+      "escape_hatch": "< 30%"
+    }
+  },
+  "required": {
+    "mechanism": {
+      "presence": 0.95,
+      "count": 19,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "domain": {
+      "presence": 0.95,
+      "count": 19,
+      "total": 20,
+      "inferred_type": "string"
+    }
+  },
+  "optional": {
+    "moderators": {
+      "presence": 0.4,
+      "count": 8,
+      "total": 20,
+      "inferred_type": "object|string"
+    },
+    "definition": {
+      "presence": 0.35,
+      "count": 7,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation": {
+      "presence": 0.5,
+      "count": 10,
+      "total": 20,
+      "inferred_type": "object|string"
+    },
+    "evidence_quality": {
+      "presence": 0.7,
+      "count": 14,
+      "total": 20,
+      "inferred_type": "object|string"
+    },
+    "triggers": {
+      "presence": 0.65,
+      "count": 13,
+      "total": 20,
+      "inferred_type": "object|string"
+    }
+  },
+  "escape_hatch": {
+    "behavioral_outcomes": {
+      "presence": 0.15,
+      "count": 3,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "mechanisms_of_negative_priming": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "source_notes": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "related_types": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.conscious_awareness": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.replication_issues": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "core_process": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.confounds": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.modality_match": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.relationship_type": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.timing": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.conclusion": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "mechanisms_of_negative_priming.episodic_retrieval_model": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "mechanisms_of_negative_priming.distractor_inhibition_model": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.overall": {
+      "presence": 0.2,
+      "count": 4,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "also_known_as": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "assessment_tools.PAQ": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "components.core_three": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.gender": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "consequences": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "evidence_quality.longitudinal": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "assessment_tools.TAS_20": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "etymology": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "prevalence.high_alexithymia_threshold": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "models.cognitive_behavioral": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "assessment_tools": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "evidence_quality.prevalence_data": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "models": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "classification_status.scholarly_consensus": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "components": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "co_occurrence": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "prevalence.clinical_adolescent_sample": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.neuroimaging": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "components.contested_fourth": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "prevalence": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "related_constructs.inversely_related_to": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "introduced_by": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.debate_areas": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.cultural_stability": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.valence_specificity": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "consequences.psychotherapy": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "year_introduced": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "number"
+    },
+    "prevalence.general_population": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "models.psychoanalytic": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "related_constructs": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "classification_status.DSM_5": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.trait_vs_state": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "classification_status": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "classification_status.ICD_11": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.stress": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "memory_interactions": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "memory_interactions.fear_conditioning": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.stress_modulation": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "behavioral_prediction_notes.stress_amplification": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.sex_hormones": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "memory_interactions.declarative_memory": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "downstream_interactions": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "neural_architecture": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "memory_interactions.episodic_memory": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.structural_neuroscience": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "behavioral_prediction_notes": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "evidence_quality.sex_differences": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "behavioral_prediction_notes.sex_differences_in_threat_behavior": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.childhood_social_reactivity": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.developmental_stage": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "core_function": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "triggers.conditioning_mechanism": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "behavioral_prediction_notes.threat_generalization": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "neural_architecture.hemispheric_lateralization": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "individual_variation.sex": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "behavioral_outputs": {
+      "presence": 0.25,
+      "count": 5,
+      "total": 20,
+      "inferred_type": "object|string"
+    },
+    "neural_architecture.key_nuclei": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "triggers.primary": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "behavioral_prediction_notes.adolescent_volatility": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.lateralization": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.lateralization": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_experiments": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "key_experiments[].implication": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string?"
+    },
+    "origins.field_of_origin": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "resistance_to_correction.financial_incentives": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "origins.original_framing": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "resistance_to_correction.level": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "types.numeric_anchoring": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_experiments[].design": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string?"
+    },
+    "resistance_to_correction.most_effective_mitigation": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "core_definition": {
+      "presence": 0.25,
+      "count": 5,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "real_world_domains": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.original_source_strength": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_experiments[].study": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "resistance_to_correction": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "origins": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "evidence_quality.replication_status": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_experiments[].secondary_finding": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string?"
+    },
+    "proposed_mechanisms": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "types.non_numeric_anchoring": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "aliases": {
+      "presence": 0.25,
+      "count": 5,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "trigger_conditions": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_experiments[].result": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "non_replication_conditions": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "resistance_to_correction.explicit_warning": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_experiments[].effect_size_note": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string?"
+    },
+    "origins.formalized_by": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_experiments[].note": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string?"
+    },
+    "types": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "moderation_factors.severity_spectrum": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "interactions_with_other_mechanisms": {
+      "presence": 0.2,
+      "count": 4,
+      "total": 20,
+      "inferred_type": "object|string"
+    },
+    "resulting_behaviors.hypervigilance": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderation_factors.developmental_appropriateness": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evolutionary_account": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "resulting_behaviors.excessive_caution": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "cognitive_effects": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "resulting_behaviors.somatic_complaints": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderation_factors.coping_skill_availability": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "physiological_substrate.respiratory": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evolutionary_account.function": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderation_factors.disorder_threshold": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "physiological_substrate.cardiac": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "source": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "physiological_substrate.digestive": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderation_factors": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "individual_variation.noted": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "boolean"
+    },
+    "resulting_behaviors.avoidance": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_distinction.anxiety_vs_fear": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "physiological_substrate.muscular": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.description": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "resulting_behaviors.motor_agitation": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "physiological_substrate.neurological": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "resulting_behaviors.lifestyle_changes": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_distinction": {
+      "presence": 0.15,
+      "count": 3,
+      "total": 20,
+      "inferred_type": "object|string"
+    },
+    "key_theorists": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "emotional_effects": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "physiological_substrate": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "resulting_behaviors": {
+      "presence": 0.25,
+      "count": 5,
+      "total": 20,
+      "inferred_type": "object|string"
+    },
+    "evolutionary_account.smoke_detector_principle": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "avoidance_loop_mechanism": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evolutionary_account.caveat": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "resulting_behaviors.rumination": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "applied_relevance": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "evidence_quality.criticisms": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "core_description": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "classification.infant_patterns": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "formation.critical_period": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "behavioral_outputs.insecure_general": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "formation.mechanism": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "behavioral_outputs.secure": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.protective_factors": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "applied_relevance.domains": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation_notes": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "classification.adult_extension": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "boolean"
+    },
+    "origin": {
+      "presence": 0.15,
+      "count": 3,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "moderators.adult_outcomes": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "classification": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "origin.psychological_aim": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.status": {
+      "presence": 0.15,
+      "count": 3,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "applied_relevance.character_modeling_note": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "formation": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "triggers.activation_contexts": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "interactions": {
+      "presence": 0.15,
+      "count": 3,
+      "total": 20,
+      "inferred_type": "object|string"
+    },
+    "applied_relevance.predictive_use": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "origin.biological_basis": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "classification.assessment_tool": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "triggers.primary_relationship_target": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation_notes.sources_of_variation": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation_notes.cultural_universality": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "formation.key_inputs": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "origin.theorist": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_base": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "origin.year": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "number"
+    },
+    "theoretical_debates.measurement_problem": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "subsystems.FFS": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "individual_variation.contrast_with_eysenck": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "predictive_applications": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.dimension_2": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_debates.revised_theory_addition": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.gray_personality_axes": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "origin.major_revision": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "number"
+    },
+    "individual_variation.dimension_1": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "interactions.arousal_systems": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "subsystems.BAS": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "evidence_base.domains_studied": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "framework": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "interactions.emotional_conditioning": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_base.source_type": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "origin.basis": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_debates": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "subsystems.BIS": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "evidence_base.quality": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "subsystems": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "interactions.BIS_BAS_balance": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "origin.precursor": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "backfire_effect": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "moderating_conditions.source": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "core_claim": {
+      "presence": 0.15,
+      "count": 3,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "backfire_effect.definition": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "psychological_mechanisms[].description": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.backfire_effect_groups": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.expert_susceptibility": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "backfire_effect.replication_status": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "backfire_effect.current_consensus": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_framing": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "psychological_mechanisms[].name": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "backfire_effect.practical_implication": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "psychological_mechanisms": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "moderating_conditions": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "evidence[].quality": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.calculator_study": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence[].finding": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence[].design": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderating_conditions.conditions_under_which_it_still_occurs": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence[].study": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "origin_theory.claim": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.note": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "behavioral_relevance.academic_behavior": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.scale": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "factors.C": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "factors": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "description": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "heritability": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "type": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.limitation": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "development_history[].contributors": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "array|null"
+    },
+    "evidence_quality.basis": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "factors.N": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "development_history[].contributor": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string?"
+    },
+    "individual_variation.granularity": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "measurement": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "heritability.source": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.convergence": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "factors.A": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "measurement.dimensionality_reduction": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "origin_theory": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "origin_theory.name": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "heritability.note": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "behavioral_relevance": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "measurement.scale": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "development_history[].contribution": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "measurement.key_instrument": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "behavioral_relevance.prediction_use": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "factors.E": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "development_history[].year": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "number"
+    },
+    "related_models": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "factors.O": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "measurement.method": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "development_history": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "origin_theory.first_proposed": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "self_vs_other_asymmetry.implication": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_base.limitations": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "core_phenomenon": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "source_coverage": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "underlying_process.description": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_base.foundational": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "underlying_process": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "moderating_factors.increases_detection": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "underlying_process.distinction": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "self_vs_other_asymmetry.description": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderating_factors.reduces_detection": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "rationalization_template.detection_resistance": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "rationalization_template.hidden_state": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderating_factors": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "object|string"
+    },
+    "rationalization_template.surface_verbalization": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "adaptive_unconscious_link": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "self_vs_other_asymmetry": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "related_mechanisms": {
+      "presence": 0.15,
+      "count": 3,
+      "total": 20,
+      "inferred_type": "object|string"
+    },
+    "evidence_base.quality_assessment": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "rationalization_template": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "underlying_process.key_insight": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "magnitude_moderators[].note": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "cognition_relationships.consonant": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "originator": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "object|string"
+    },
+    "magnitude_moderators[].direction": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "magnitude_moderators[].factor": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.standing": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "reduction_strategies": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "originator.name": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.replication": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "resistance_to_correction.description": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "resistance_to_correction.quote": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "originator.year": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "number"
+    },
+    "reduction_strategies[].strategy": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "cognition_relationships": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "magnitude_moderators": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "cognition_relationships.dissonant": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "interactions_implied": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "phenomenology": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "originator.key_works": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "reduction_strategies[].description": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "cognition_relationships.irrelevant": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "self_image_function": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "memory_systems_affected.primary": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "population_notes.behavioral_spontaneous_subgroup": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.underlying_condition": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_accounts.executive_control": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "triggers.neurological": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_accounts": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "neural_substrates": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "relevance_to_rationalization_domain": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "neural_substrates.primary_regions": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "triggers.toxic": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "memory_systems_affected": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "triggers.social": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.personality_structure": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.severity_spectrum": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_accounts.monitoring_and_strategic_retrieval": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "types.by_expression": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "neural_substrates.proposed_mechanism_for_spontaneous": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.interrogation_pressure": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.gaps": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_accounts.temporality": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_accounts.neuropsychological": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.age": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "relevance_to_rationalization_domain.note": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "relevance_to_rationalization_domain.verbalization_template": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "population_notes.typical_population": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "population_notes": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "behavioral_characteristics": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_accounts.self_identity": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "encoding_storage_retrieval": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "types.by_occurrence": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "theoretical_accounts.fuzzy_trace": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "triggers.memory_test_context": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "memory_systems_affected.secondary": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.feedback": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "population_notes.healthy_occurrence": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.nuance": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_framing_debate.narrow_definition": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "historical_evidence": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "downstream_effects[].description": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "historical_evidence.evidence_quality": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "downstream_effects[].effect": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "historical_evidence.origin": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "downstream_effects": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "social_amplifiers[].amplifier": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_framing_debate.broad_definition": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "subtypes[].name": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "historical_evidence.reinterpretation": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "social_amplifiers[].mechanism": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "distinction_from_related_concepts.self_fulfilling_prophecy": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "distinction_from_related_concepts": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "theoretical_framing_debate": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "moderators.strength_increases_with": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "social_amplifiers": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "mechanisms_of_action": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "subtypes": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "core_definition_source": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "subtypes[].description": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.factors_decreasing_conformity": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_evidence.post_hoc_explanations_by_subjects": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "related_mechanisms[].name": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_evidence": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "context_sensitivity.operates_alone": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "boolean"
+    },
+    "key_evidence.study": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "conscious_vs_unconscious": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_evidence.results": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "key_evidence.evidence_quality": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "subtypes[].dominance_condition": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string?"
+    },
+    "context_sensitivity.note": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_evidence.replication": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "context_sensitivity": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "subtypes[].mechanism": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string?"
+    },
+    "individual_variation.factors_increasing_conformity": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_evidence.design": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "related_mechanisms[].relation": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "scope_of_application": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "outcomes_when_conditions_absent": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.limitations": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "outcomes_when_conditions_met": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "historical_context": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "name": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "preconditions_for_prejudice_reduction.common_goals": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "preconditions_for_prejudice_reduction.cooperative_interdependence": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "failure_modes": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "preconditions_for_prejudice_reduction": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "preconditions_for_prejudice_reduction.equal_status": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "policy_relevance": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.type": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "preconditions_for_prejudice_reduction.institutional_support": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.description": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.multiple_ornaments": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_distinction.cue": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "key_distinction.signal": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "resulting_behaviors.human": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "cheating_and_deception.arms_race": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "ritual_function": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "cheating_and_deception.constraint": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "signal_honesty_mechanism": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.non_human_biology": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.mathematical_models": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.handicap_principle_specifically": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_framework.runaway_effect": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_framework.handicap_principle": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation.quality_dependence": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "social_outcome": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "cheating_and_deception": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "evidence_quality.human_behavior": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "resulting_behaviors.non_human": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_framework.evolutionary_stability": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_framework": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "cheating_and_deception.possible": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "personality_correlates": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "measurement_tools": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "personality_correlates.secondary": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "origin.authors": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "developmental_pattern": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "outcomes.positive": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "components.machiavellianism": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "measurement_tools[].notes": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "components.narcissism": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "measurement_challenges.observer_report": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "outcomes.negative": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "measurement_challenges": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "distinguishing_features": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "components.psychopathy": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "measurement_tools[].name": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "theoretical_status": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "distinguishing_features.psychopathy_vs_machiavellianism": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "personality_correlates.strongest": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "shared_features_across_all_three": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "measurement_challenges.self_report": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "outcomes": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "degree_axis.absolute": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "who_dehumanizes.traditional_view": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "interaction_with_other_mechanisms": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "degree_axis": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "distinction_from_related_concepts.vs_stigmatization": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "explicitness_axis.blatant": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "degree_axis.relative": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "primary_forms": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "who_dehumanizes": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "who_dehumanizes.updated_finding": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "distinction_from_related_concepts.vs_marginalization": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "explicitness_axis": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "core_psychological_mechanism": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation_factors": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "primary_forms.mechanistic_dehumanization": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "evidence_quality.notes": {
+      "presence": 0.1,
+      "count": 2,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "primary_forms.animalistic_dehumanization": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "explicitness_axis.subtle_infrahumanization": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "unconscious_processing": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "boolean"
+    },
+    "distinction_from_related_concepts.vs_dislike": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation_moderators.gender_differences": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "cross_cultural_evidence.core_elicitors": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "physiological_signature.contrast_with": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "sensory_channels": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "domains.sexual_disgust": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "individual_variation_moderators.high_sensitivity_correlates": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "interactions_with_other_mechanisms.ingroup_outgroup": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evolutionary_basis": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "physiological_signature.autonomic": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "physiological_signature": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "behavioral_outputs.primary": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "cross_cultural_evidence.universality": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evolutionary_basis.function": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence_quality.methods": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "domains": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "key_researchers": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "cross_cultural_evidence": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "individual_variation_moderators": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "interactions_with_other_mechanisms.moral_judgment": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evolutionary_basis.logic": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "interactions_with_other_mechanisms.aggression": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "domains.pathogen_disgust": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "behavioral_outputs.secondary": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "domains.moral_disgust": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "interactions_with_other_mechanisms.anxiety_disorders": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evolutionary_basis.primary_origin": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "individual_variation_moderators.sensitivity_dimension": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "hierarchy_types.stability": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "behavioral_outputs.signaling": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "triggers.proximate": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "hierarchy_types": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "object"
+    },
+    "human_applicability_note": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence.human_relevance": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string?"
+    },
+    "evidence.species_coverage": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string?"
+    },
+    "subordinate_strategy": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.contextual": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.group_level": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "hierarchy_types.spectrum": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "behavioral_outputs.dominant": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "interesting_dissociation": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "evidence.quality": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "behavioral_outputs.subordinate": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.individual_level": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "triggers.structural": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "costs_of_high_rank": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "benefits_of_high_rank": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "function": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    },
+    "moderators.environmental": {
+      "presence": 0.05,
+      "count": 1,
+      "total": 20,
+      "inferred_type": "string"
+    }
+  },
+  "structure_hints": {
+    "moderators": [
+      "adult_outcomes",
+      "conscious_awareness",
+      "contextual",
+      "developmental_stage",
+      "environmental",
+      "feedback",
+      "group_level",
+      "individual_level",
+      "interrogation_pressure",
+      "modality_match",
+      "nuance",
+      "protective_factors",
+      "relationship_type",
+      "sex_hormones",
+      "strength_increases_with",
+      "stress",
+      "timing",
+      "underlying_condition"
+    ],
+    "mechanisms_of_negative_priming": [
+      "distractor_inhibition_model",
+      "episodic_retrieval_model"
+    ],
+    "evidence_quality": [
+      "basis",
+      "conclusion",
+      "confounds",
+      "convergence",
+      "criticisms",
+      "debate_areas",
+      "description",
+      "gaps",
+      "handicap_principle_specifically",
+      "human_behavior",
+      "lateralization",
+      "limitation",
+      "limitations",
+      "longitudinal",
+      "mathematical_models",
+      "methods",
+      "neuroimaging",
+      "non_human_biology",
+      "notes",
+      "original_source_strength",
+      "overall",
+      "prevalence_data",
+      "replication",
+      "replication_issues",
+      "replication_status",
+      "sex_differences",
+      "standing",
+      "status",
+      "stress_modulation",
+      "structural_neuroscience",
+      "type"
+    ],
+    "components": [
+      "contested_fourth",
+      "core_three",
+      "machiavellianism",
+      "narcissism",
+      "psychopathy"
+    ],
+    "models": [
+      "cognitive_behavioral",
+      "psychoanalytic"
+    ],
+    "classification_status": [
+      "DSM_5",
+      "ICD_11",
+      "scholarly_consensus"
+    ],
+    "prevalence": [
+      "clinical_adolescent_sample",
+      "general_population",
+      "high_alexithymia_threshold"
+    ],
+    "individual_variation": [
+      "age",
+      "backfire_effect_groups",
+      "calculator_study",
+      "childhood_social_reactivity",
+      "contrast_with_eysenck",
+      "cultural_stability",
+      "description",
+      "dimension_1",
+      "dimension_2",
+      "expert_susceptibility",
+      "factors_decreasing_conformity",
+      "factors_increasing_conformity",
+      "gender",
+      "granularity",
+      "gray_personality_axes",
+      "lateralization",
+      "multiple_ornaments",
+      "note",
+      "noted",
+      "personality_structure",
+      "quality_dependence",
+      "scale",
+      "severity_spectrum",
+      "sex",
+      "trait_vs_state",
+      "valence_specificity"
+    ],
+    "assessment_tools": [
+      "PAQ",
+      "TAS_20"
+    ],
+    "related_constructs": [
+      "inversely_related_to"
+    ],
+    "consequences": [
+      "psychotherapy"
+    ],
+    "triggers": [
+      "activation_contexts",
+      "conditioning_mechanism",
+      "memory_test_context",
+      "neurological",
+      "primary",
+      "primary_relationship_target",
+      "proximate",
+      "social",
+      "structural",
+      "toxic"
+    ],
+    "neural_architecture": [
+      "hemispheric_lateralization",
+      "key_nuclei"
+    ],
+    "memory_interactions": [
+      "declarative_memory",
+      "episodic_memory",
+      "fear_conditioning"
+    ],
+    "behavioral_prediction_notes": [
+      "adolescent_volatility",
+      "sex_differences_in_threat_behavior",
+      "stress_amplification",
+      "threat_generalization"
+    ],
+    "origins": [
+      "field_of_origin",
+      "formalized_by",
+      "original_framing"
+    ],
+    "types": [
+      "by_expression",
+      "by_occurrence",
+      "non_numeric_anchoring",
+      "numeric_anchoring"
+    ],
+    "key_experiments": [
+      "design",
+      "effect_size_note",
+      "implication",
+      "note",
+      "result",
+      "secondary_finding",
+      "study"
+    ],
+    "resistance_to_correction": [
+      "description",
+      "explicit_warning",
+      "financial_incentives",
+      "level",
+      "most_effective_mitigation",
+      "quote"
+    ],
+    "key_distinction": [
+      "anxiety_vs_fear",
+      "cue",
+      "signal"
+    ],
+    "resulting_behaviors": [
+      "avoidance",
+      "excessive_caution",
+      "human",
+      "hypervigilance",
+      "lifestyle_changes",
+      "motor_agitation",
+      "non_human",
+      "rumination",
+      "somatic_complaints"
+    ],
+    "physiological_substrate": [
+      "cardiac",
+      "digestive",
+      "muscular",
+      "neurological",
+      "respiratory"
+    ],
+    "evolutionary_account": [
+      "caveat",
+      "function",
+      "smoke_detector_principle"
+    ],
+    "moderation_factors": [
+      "coping_skill_availability",
+      "developmental_appropriateness",
+      "disorder_threshold",
+      "severity_spectrum"
+    ],
+    "origin": [
+      "authors",
+      "basis",
+      "biological_basis",
+      "major_revision",
+      "precursor",
+      "psychological_aim",
+      "theorist",
+      "year"
+    ],
+    "formation": [
+      "critical_period",
+      "key_inputs",
+      "mechanism"
+    ],
+    "classification": [
+      "adult_extension",
+      "assessment_tool",
+      "infant_patterns"
+    ],
+    "behavioral_outputs": [
+      "dominant",
+      "insecure_general",
+      "primary",
+      "secondary",
+      "secure",
+      "signaling",
+      "subordinate"
+    ],
+    "individual_variation_notes": [
+      "cultural_universality",
+      "sources_of_variation"
+    ],
+    "applied_relevance": [
+      "character_modeling_note",
+      "domains",
+      "predictive_use"
+    ],
+    "subsystems": [
+      "BAS",
+      "BIS",
+      "FFS"
+    ],
+    "theoretical_debates": [
+      "measurement_problem",
+      "revised_theory_addition"
+    ],
+    "evidence_base": [
+      "domains_studied",
+      "foundational",
+      "limitations",
+      "quality",
+      "quality_assessment",
+      "source_type"
+    ],
+    "interactions": [
+      "BIS_BAS_balance",
+      "arousal_systems",
+      "emotional_conditioning"
+    ],
+    "psychological_mechanisms": [
+      "description",
+      "name"
+    ],
+    "backfire_effect": [
+      "current_consensus",
+      "definition",
+      "practical_implication",
+      "replication_status"
+    ],
+    "evidence": [
+      "design",
+      "finding",
+      "human_relevance",
+      "quality",
+      "species_coverage",
+      "study"
+    ],
+    "moderating_conditions": [
+      "conditions_under_which_it_still_occurs",
+      "source"
+    ],
+    "factors": [
+      "A",
+      "C",
+      "E",
+      "N",
+      "O"
+    ],
+    "measurement": [
+      "dimensionality_reduction",
+      "key_instrument",
+      "method",
+      "scale"
+    ],
+    "origin_theory": [
+      "claim",
+      "first_proposed",
+      "name"
+    ],
+    "development_history": [
+      "contribution",
+      "contributor",
+      "contributors",
+      "year"
+    ],
+    "heritability": [
+      "note",
+      "source"
+    ],
+    "behavioral_relevance": [
+      "academic_behavior",
+      "prediction_use"
+    ],
+    "underlying_process": [
+      "description",
+      "distinction",
+      "key_insight"
+    ],
+    "moderating_factors": [
+      "increases_detection",
+      "reduces_detection"
+    ],
+    "self_vs_other_asymmetry": [
+      "description",
+      "implication"
+    ],
+    "rationalization_template": [
+      "detection_resistance",
+      "hidden_state",
+      "surface_verbalization"
+    ],
+    "originator": [
+      "key_works",
+      "name",
+      "year"
+    ],
+    "cognition_relationships": [
+      "consonant",
+      "dissonant",
+      "irrelevant"
+    ],
+    "reduction_strategies": [
+      "description",
+      "strategy"
+    ],
+    "magnitude_moderators": [
+      "direction",
+      "factor",
+      "note"
+    ],
+    "neural_substrates": [
+      "primary_regions",
+      "proposed_mechanism_for_spontaneous"
+    ],
+    "memory_systems_affected": [
+      "primary",
+      "secondary"
+    ],
+    "theoretical_accounts": [
+      "executive_control",
+      "fuzzy_trace",
+      "monitoring_and_strategic_retrieval",
+      "neuropsychological",
+      "self_identity",
+      "temporality"
+    ],
+    "population_notes": [
+      "behavioral_spontaneous_subgroup",
+      "healthy_occurrence",
+      "typical_population"
+    ],
+    "relevance_to_rationalization_domain": [
+      "note",
+      "verbalization_template"
+    ],
+    "subtypes": [
+      "description",
+      "dominance_condition",
+      "mechanism",
+      "name"
+    ],
+    "downstream_effects": [
+      "description",
+      "effect"
+    ],
+    "social_amplifiers": [
+      "amplifier",
+      "mechanism"
+    ],
+    "distinction_from_related_concepts": [
+      "self_fulfilling_prophecy",
+      "vs_dislike",
+      "vs_marginalization",
+      "vs_stigmatization"
+    ],
+    "historical_evidence": [
+      "evidence_quality",
+      "origin",
+      "reinterpretation"
+    ],
+    "theoretical_framing_debate": [
+      "broad_definition",
+      "narrow_definition"
+    ],
+    "key_evidence": [
+      "design",
+      "evidence_quality",
+      "post_hoc_explanations_by_subjects",
+      "replication",
+      "results",
+      "study"
+    ],
+    "related_mechanisms": [
+      "name",
+      "relation"
+    ],
+    "context_sensitivity": [
+      "note",
+      "operates_alone"
+    ],
+    "preconditions_for_prejudice_reduction": [
+      "common_goals",
+      "cooperative_interdependence",
+      "equal_status",
+      "institutional_support"
+    ],
+    "theoretical_framework": [
+      "evolutionary_stability",
+      "handicap_principle",
+      "runaway_effect"
+    ],
+    "cheating_and_deception": [
+      "arms_race",
+      "constraint",
+      "possible"
+    ],
+    "distinguishing_features": [
+      "psychopathy_vs_machiavellianism"
+    ],
+    "outcomes": [
+      "negative",
+      "positive"
+    ],
+    "personality_correlates": [
+      "secondary",
+      "strongest"
+    ],
+    "measurement_tools": [
+      "name",
+      "notes"
+    ],
+    "measurement_challenges": [
+      "observer_report",
+      "self_report"
+    ],
+    "primary_forms": [
+      "animalistic_dehumanization",
+      "mechanistic_dehumanization"
+    ],
+    "degree_axis": [
+      "absolute",
+      "relative"
+    ],
+    "explicitness_axis": [
+      "blatant",
+      "subtle_infrahumanization"
+    ],
+    "who_dehumanizes": [
+      "traditional_view",
+      "updated_finding"
+    ],
+    "evolutionary_basis": [
+      "function",
+      "logic",
+      "primary_origin"
+    ],
+    "domains": [
+      "moral_disgust",
+      "pathogen_disgust",
+      "sexual_disgust"
+    ],
+    "physiological_signature": [
+      "autonomic",
+      "contrast_with"
+    ],
+    "individual_variation_moderators": [
+      "gender_differences",
+      "high_sensitivity_correlates",
+      "sensitivity_dimension"
+    ],
+    "interactions_with_other_mechanisms": [
+      "aggression",
+      "anxiety_disorders",
+      "ingroup_outgroup",
+      "moral_judgment"
+    ],
+    "cross_cultural_evidence": [
+      "core_elicitors",
+      "universality"
+    ],
+    "hierarchy_types": [
+      "spectrum",
+      "stability"
+    ]
+  }
+}

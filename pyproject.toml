@@ -1,0 +1,65 @@
+[project]
+name = "drivermap"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = "Behavioral mechanisms knowledge base — agent substrate for predicting and verbalizing human behavior"
+license = {text = "MIT"}
+dependencies = [
+    "fastmcp>=2.0",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "ruff>=0.4",
+    "bandit>=1.7",
+    "pip-audit>=2.7",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --cov --cov-report=term-missing"
+
+[tool.coverage.run]
+omit = ["tests/*", ".venv/*", "benchmark.py", "fetch.py", "extract.py",
+        "discover.py", "visualize.py", "patch_plain_language.py", "seeds.py",
+        "demo.py", "evolution.py"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "if __name__ == .__main__.:",
+    "pragma: no cover",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "SIM", # flake8-simplify
+]
+ignore = [
+    "E501",   # line too long (handled by formatter)
+    "B006",   # mutable default args in function signatures (used deliberately)
+    "SIM108", # ternary operator preference
+    "SIM105", # use contextlib.suppress — try/except is clearer here
+    "SIM118", # key in dict vs dict.keys() — no meaningful difference
+    "B905",   # zip() without strict= — parallel arrays are intentional
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["F401"]  # unused imports in test files OK
+# sys.path.insert must precede these imports
+"benchmark.py" = ["E402", "E701", "E731", "B007", "B905", "SIM113"]
+"patch_plain_language.py" = ["E402"]
+# compact math/visualization notation is intentional
+"visualize.py" = ["E701", "E702", "E731"]

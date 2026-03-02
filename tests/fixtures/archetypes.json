@@ -1,0 +1,127 @@
+[
+  {
+    "name": "passed_over_colleague",
+    "description": "Someone passed over for a promotion, explaining why the new hire will fail",
+    "profile": {
+      "big_five_N": "+",
+      "social_dominance_orientation": "+",
+      "power_state": "-",
+      "threat_appraisal": "+"
+    },
+    "situation": ["power_differential", "social_visibility", "conflict_present"],
+    "expected_top3": ["shame_response", "precarious_manhood", "loneliness"]
+  },
+  {
+    "name": "founder_in_denial",
+    "description": "Startup founder reframing declining metrics as 'healthy consolidation'",
+    "profile": {
+      "big_five_C": "+",
+      "need_for_closure": "+",
+      "threat_appraisal": "+"
+    },
+    "situation": ["stakes", "prior_commitment", "social_visibility"],
+    "expected_top3": ["motivated_reasoning", "sacred_values", "affective_polarization"]
+  },
+  {
+    "name": "one_more_chance",
+    "description": "Giving a troubled relationship one more chance after the third conflict",
+    "profile": {
+      "attachment_anxious": "+",
+      "big_five_N": "+",
+      "fatigue_depletion": "+"
+    },
+    "situation": ["prior_commitment", "ambiguity", "outcome_reversibility"],
+    "expected_top3": ["anxiety_avoidance", "grief_bereavement", "amygdala_threat_response"]
+  },
+  {
+    "name": "logan_roy",
+    "description": "Media patriarch cancelling succession after hospitalization",
+    "profile": {
+      "social_dominance_orientation": "+",
+      "dark_triad_narcissism": "+",
+      "dark_triad_machiavellianism": "+",
+      "attachment_avoidant": "+",
+      "hexaco_H": "-",
+      "bis_sensitivity": "-",
+      "need_for_closure": "+",
+      "big_five_A": "-",
+      "power_state": "-",
+      "threat_appraisal": "+",
+      "affective_valence": "-",
+      "affective_arousal": "+"
+    },
+    "situation": ["stakes", "power_differential", "surveillance", "prior_commitment", "social_visibility"],
+    "expected_top3": ["impression_management", "motivated_reasoning", "envy_jealousy"]
+  },
+  {
+    "name": "the_thread",
+    "description": "Online commenter dismissing new open-source library without reading it",
+    "profile": {
+      "social_dominance_orientation": "+",
+      "dark_triad_narcissism": "+",
+      "need_for_closure": "+",
+      "in_group_salience": "+",
+      "power_state": "+",
+      "big_five_A": "-"
+    },
+    "situation": ["social_visibility", "out_group_salience", "conflict_present"],
+    "expected_top3": ["affective_polarization", "naive_realism", "social_intuitionist_model"]
+  },
+  {
+    "name": "high_dominance_no_power_tag",
+    "description": "High-dominance profile in group without explicit power_holder tag",
+    "profile": {
+      "dark_triad_machiavellianism": "+",
+      "social_dominance_orientation": "+",
+      "big_five_A": "-",
+      "threat_appraisal": "+"
+    },
+    "situation": ["group_context", "social_visibility", "stakes", "power_differential"],
+    "expected_top3": ["prestige_dominance", "coalition_formation", "gossip_reputation"]
+  },
+  {
+    "name": "high_dominance_power_holder",
+    "description": "High-dominance profile with explicit power_holder — dominance hierarchy required",
+    "profile": {
+      "dark_triad_machiavellianism": "+",
+      "social_dominance_orientation": "+",
+      "big_five_A": "-",
+      "threat_appraisal": "+"
+    },
+    "situation": ["group_context", "social_visibility", "stakes", "power_differential", "power_holder"],
+    "expected_top3": ["dominance_hierarchy", "prestige_dominance", "coalition_formation"]
+  },
+  {
+    "name": "high_dominance",
+    "description": "Generic high-dominance personality in power situation",
+    "profile": {
+      "social_dominance_orientation": "+",
+      "dark_triad_narcissism": "+",
+      "big_five_A": "-"
+    },
+    "situation": ["power_differential", "social_visibility"],
+    "expected_top3": ["envy_jealousy", "costly_signaling", "pride"]
+  },
+  {
+    "name": "high_anxiety",
+    "description": "Generic high-anxiety personality under social pressure",
+    "profile": {
+      "big_five_N": "+",
+      "attachment_anxious": "+",
+      "bis_sensitivity": "+"
+    },
+    "situation": ["social_visibility", "stakes"],
+    "expected_top3": ["spotlight_effect", "loneliness", "negativity_bias"]
+  },
+  {
+    "name": "high_agreeableness",
+    "description": "Generic high-agreeableness personality in social context",
+    "profile": {
+      "big_five_A": "+",
+      "big_five_E": "+",
+      "hexaco_H": "+"
+    },
+    "situation": ["relationship_type", "group_context"],
+    "expected_top3": ["gratitude", "communal_orientation", "guilt"]
+  }
+]

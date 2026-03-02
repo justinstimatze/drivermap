@@ -1,0 +1,23 @@
+drivermap — Third-Party Acknowledgments
+
+─────────────────────────────────────────────────────────────────────────────
+Wikipedia
+─────────────────────────────────────────────────────────────────────────────
+The knowledge base was built using text from Wikipedia
+(https://www.wikipedia.org), contributed by Wikipedia editors under the
+Creative Commons Attribution-ShareAlike 4.0 International License
+(CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/).
+
+The corpus/ directory (Wikipedia article text, not distributed with this
+repository) served as source material for LLM extraction. The extracted and
+transformed records in db/mechanisms.sqlite are derivative works and are
+likewise made available under CC BY-SA 4.0 to the extent required by that
+license.
+
+─────────────────────────────────────────────────────────────────────────────
+Kagi
+─────────────────────────────────────────────────────────────────────────────
+Additional source abstracts were fetched during corpus construction using the
+Kagi Summarizer API (https://kagi.com). Those abstracts are not distributed
+with this repository. Use of the Kagi API is subject to Kagi's Terms of
+Service (https://kagi.com/legal/terms).

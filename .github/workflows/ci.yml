@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install ruff
+      - run: ruff check .
+      - run: ruff format --check .
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install fastmcp matplotlib pytest pytest-cov
+      - name: Run tests
+        run: pytest tests/
+
+  security:
+    name: Security scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install security tools
+        run: pip install bandit pip-audit fastmcp matplotlib
+      - name: Bandit — static security analysis
+        run: |
+          bandit -r . \
+            -x ./.venv,./tests \
+            --skip B101,B310,B603,B607,B608 \
+            -ll
+        # B101: assert statements (fine in tests)
+        # B310: urllib.urlopen — all URLs are hardcoded constants, not user input
+        # B603: subprocess without shell (we use this intentionally for claude CLI)
+        # B607: partial executable path (claude is on PATH by design)
+        # B608: SQL injection — f-strings only build IN (?,?,...) placeholders; values are parameterized
+      - name: pip-audit — dependency vulnerability scan
+        run: pip-audit --requirement <(pip freeze) --ignore-vuln PYSEC-2022-42969
