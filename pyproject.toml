@@ -5,7 +5,7 @@ requires-python = ">=3.11"
 description = "Behavioral mechanisms knowledge base — agent substrate for predicting and verbalizing human behavior"
 license = {text = "MIT"}
 dependencies = [
-    "fastmcp>=2.0",
+    "fastmcp>=3.2.0",
     "matplotlib>=3.7",
 ]
 
